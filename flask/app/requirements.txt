@@ -1,3 +1,6 @@
 flask==1.1.2
 flask_restful
 uwsgi
+numpy
+pandas
+scikit-learn
