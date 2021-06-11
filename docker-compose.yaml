@@ -29,7 +29,7 @@ services:
       - MODEL_NAME=FDSmodel
     networks:
       fraud_backend_test:
-      ipv4_address: 172.10.18.04
+        ipv4_address: 172.10.18.04
 networks:
   fraud_backend_test:
     ipam:
