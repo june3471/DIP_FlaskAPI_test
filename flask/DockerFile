@@ -10,7 +10,7 @@ RUN pip3 install -r /app/requirments.txt
 #/app/requirements.txt에 정의된 패키지 설치
 
 
-#CMD ["uwsgi","uwsgi.ini"]
+CMD ["uwsgi","uwsgi.ini"]
 #ops mode
 #CMD ["python3","app_main.py"]
 #dev mode
