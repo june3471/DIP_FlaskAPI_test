@@ -4,7 +4,7 @@ services:
   flask:
     build:
       context: .
-      dockerfile: ./flask/Dockerfile
+      dockerfile: ./flask/DockerFile
     container_name: flask_backend_fraud
     expose:
       - 8080 # Flask container 서비스 8080으로 노출(컨테이너 끼리 인식 가능하도록)
@@ -29,7 +29,7 @@ services:
       - MODEL_NAME=FDSmodel
     networks:
       fraud_backend_test:
-      ipv4_address: 172.10.18.04
+        ipv4_address: 172.10.18.04
 networks:
   fraud_backend_test:
     ipam:
